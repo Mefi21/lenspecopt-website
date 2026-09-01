@@ -1,0 +1,41 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.session
+
+# Databases, dumps, logs, and runtime data
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.sql.gz
+!database/schema.sql
+*.log
+logs/
+uploads/
+
+# Backups and archives
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+backups/
+
+# Restorable/generated dependencies and output
+node_modules/
+vendor/
+build/
+dist/
+
+# Local tooling
+.DS_Store
+.idea/
+.vscode/

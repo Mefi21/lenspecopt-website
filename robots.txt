@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /uploads/
+Disallow: /admin.php
+Disallow: /db/
+
+Sitemap: https://lsopt.ru/sitemap.php
